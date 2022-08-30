@@ -105,6 +105,13 @@
                     "target": [
                         "TargetList"
                     ]
+                },
+                {
+                    "name": "detail",
+                    "pattern": "product/{productId}",
+                    "target": [
+                        "TargetDetail"
+                    ]
                 }
             ],
             "targets": {
@@ -121,6 +128,13 @@
                     "clearControlAggregation": false,
                     "viewName": "List",
                     "viewId" : "List"
+                },
+                "TargetDetail": {
+                    "viewType": "XML",
+                    "transition": "slide",
+                    "clearControlAggregation": false,
+                    "viewName": "Detail",
+                    "viewId": "Detail"
                 }
             }
         },
