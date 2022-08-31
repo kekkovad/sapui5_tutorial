@@ -9,6 +9,7 @@
             <ObjectAttribute id="_IDGenObjectAttribute1" text="Product #{ProductID}"/>
             <ObjectAttribute id="_IDGenObjectAttribute2" text="Category #{CategoryID}"/>
             <ObjectAttribute id="_IDGenObjectAttribute3" text="Supplier #{SupplierID}"/>
+            <ObjectAttribute text="{i18n>SupplierInfo}" active="true" ariaHasPopup="Dialog" press="getSupplierInfo" />
         </attributes>
 		</ObjectHeader>
     <footer>
